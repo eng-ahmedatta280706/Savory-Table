@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Savory Table restaurant landing page with featured dishes, guest reviews, kitchen stories, and menu highlights.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Savory Table</title>
+</head>
+
+<body>
+    <header>
+        <div class="upper-header">
+            <div class="upper-list">
+                <ul class="upper-ul">
+                    <li>About Us</li>
+                    <li>Menu</li>
+                    <li>Reservations</li>
+                    <li>Catering</li>
+                </ul>
+            </div>
+            <div class="upper-icons">
+                <ul class="icons">
+                    <li>Book a Table</li>
+                    <li>Order Online</li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <div class="logo">
+                <img class="logo-img" src="images/restaurant-logo.jpg" alt="Savory Table Logo">
+                <h1 class="logo-title">Savory Table</h1>
+            </div>
+            <div class="mid-list">
+                <ul class="main-list">
+                    <li class="main-list-li"><span><a href="#">Home</a></span></li>
+                    <li class="main-list-li"><span><a href="#">Menu</a></span></li>
+                    <li class="main-list-li"><span><a href="#">Specials</a></span></li>
+                    <li class="main-list-li"><span><a href="#">About</a></span></li>
+                    <li class="drop-down-list">
+                        <span><a href="#">Dining <i class="fa-solid fa-angle-down"></i></a></span>
+                        <div class="drop-down-uls">
+                            <ul class="drop-down-ul">
+                                <li class="header-column">
+                                    Dining
+                                    <hr class="Blog">
+                                </li>
+                                <li><a href="#">Dinner Menu</a></li>
+                                <li><a href="#">Reservation Cart</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                            <ul class="drop-down-ul-2">
+                                <li class="header-column">
+                                    Menu Guides
+                                    <hr class="Blog">
+                                </li>
+                                <li><a href="#">Ingredient Guide</a></li>
+                                <li><a href="#">Chef's Notes</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-list-li"><span><a href="#">Book a Table</a></span></li>
+                </ul>
+            </div>
+            <div class="icons-right">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+        <div class="offer-div">
+            Chef specials up to 50% off. Hurry! Limited period offer
+            <span class="offer-div-btn">
+                Reserve Now
+                <hr>
+            </span>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <p class="hero-title1">Fresh Flavors Daily</p>
+                <h2 class="hero-title2">Savory Table</h2>
+                <p class="hero-p">Enjoy handcrafted dishes made with seasonal ingredients, bold flavors, and a warm
+                    dining experience. From comforting classics to chef-inspired specialties, every plate is served with
+                    care and a little extra flavor.
+                </p>
+                <button class="hero-btn" type="button">View Menu</button>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container categories-grid">
+                <article class="category-card">
+                    <img class="category-image" src="./images/main-courses.jpg" alt="Starters Collection">
+                    <h2 class="category-title">Main Courses</h2>
+                    <button class="category-button" type="button">
+                        Explore Menu
+                    </button>
+                </article>
+
+                <article class="category-card">
+                    <img class="category-image" src="./images/drinks.jpg" alt="Main Courses Collection">
+                    <h2 class="category-title">Drinks</h2>
+                    <button class="category-button" type="button">
+                        Explore Menu
+                    </button>
+                </article>
+
+                <article class="category-card">
+                    <img class="category-image" src="./images/dessert-collection.jpg" alt="Desserts Collection">
+                    <h2 class="category-title">Desserts</h2>
+                    <button class="category-button" type="button">
+                        Explore Menu
+                    </button>
+                </article>
+            </div>
+        </section>
+        <section class="famous-dishes">
+            <div class="fd-header">
+                <h2 class="fd-title">Chef's Specials</h2>
+                <nav class="fd-tabs" aria-label="Menu Categories">
+                    <h3 class="tab-item active">
+                        Pasta
+                        <hr class="tab-indicator">
+                    </h3>
+                    <h3 class="tab-item">Grill</h3>
+                    <h3 class="tab-item">Seafood</h3>
+                    <h3 class="tab-item">Drinks</h3>
+                </nav>
+            </div>
+            <hr class="line">
+            <div class="products">
+                <div class="products-grid">
+                    <button class="slider-arrow" type="button" aria-label="Previous Products">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <div class="product-image-front img1-front"></div>
+                            <div class="product-image-back img1-back">
+                                <i class="fa-regular fa-heart" aria-label="Add to Wishlist"></i>
+                                <i class="fa-solid fa-cart-plus" aria-label="Add to Cart"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-label="Quick View"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-title">Truffle Mushroom Risotto</h3>
+                        <p class="product-price">$24.99 <del>$32.99</del></p>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <div class="product-image-front img2-front"></div>
+                            <div class="product-image-back img2-back">
+                                <i class="fa-regular fa-heart" aria-label="Add to Wishlist"></i>
+                                <i class="fa-solid fa-cart-plus" aria-label="Add to Cart"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-label="Quick View"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-title">Herb Grilled Chicken</h3>
+                        <p class="product-price">$22.99 <del>$30.99</del></p>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <div class="product-image-front img3-front"></div>
+                            <div class="product-image-back img3-back">
+                                <i class="fa-regular fa-heart" aria-label="Add to Wishlist"></i>
+                                <i class="fa-solid fa-cart-plus" aria-label="Add to Cart"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-label="Quick View"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-title">Smoked Salmon Bowl</h3>
+                        <p class="product-price">$21.99 <del>$29.99</del></p>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <div class="product-image-front img4-front"></div>
+                            <div class="product-image-back img4-back">
+                                <i class="fa-regular fa-heart" aria-label="Add to Wishlist"></i>
+                                <i class="fa-solid fa-cart-plus" aria-label="Add to Cart"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-label="Quick View"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-title">Chocolate Lava Cake</h3>
+                        <p class="product-price">$11.99 <del>$16.99</del></p>
+                    </article>
+                    <button class="slider-arrow" type="button" aria-label="Next Products">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="testimonial-container">
+                <button class="slider-arrow" type="button" aria-label="Previous Review">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <article class="testimonial-card">
+                    <h2 class="testimonial-title">What Our Guests Say</h2>
+                    <p class="testimonial-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam in, harum unde eveniet neque
+                        sequi iure excepturi fugit inventore veniam debitis odio maiores voluptate sit quae distinctio?
+                        Voluptatem, sunt?
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="images/web-experiance.jpg" alt="Guest Photo" class="author-image">
+                        <div class="author-info">
+                            <h3 class="author-name">Maya Carter</h3>
+                            <p class="author-role">Local Food Lover</p>
+                        </div>
+                    </div>
+                </article>
+                <button class="slider-arrow" type="button" aria-label="Next Review">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+        <section class="popular-menu">
+            <h2 class="populer-title">Popular Menu</h2>
+            <div class="products">
+                <div class="products-grid">
+                    <button class="slider-arrow" type="button" aria-label="Previous Products">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <div class="product-image-front img1-front"></div>
+                            <div class="product-image-back img1-back">
+                                <i class="fa-regular fa-heart" aria-label="Add to Wishlist"></i>
+                                <i class="fa-solid fa-cart-plus" aria-label="Add to Cart"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-label="Quick View"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-title">Wood-Fired Margherita Pizza</h3>
+                        <p class="product-price">$17.99 <del>$24.99</del></p>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <div class="product-image-front img2-front"></div>
+                            <div class="product-image-back img2-back">
+                                <i class="fa-regular fa-heart" aria-label="Add to Wishlist"></i>
+                                <i class="fa-solid fa-cart-plus" aria-label="Add to Cart"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-label="Quick View"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-title">Creamy Tomato Pasta</h3>
+                        <p class="product-price">$16.99 <del>$23.99</del></p>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <div class="product-image-front img3-front"></div>
+                            <div class="product-image-back img3-back">
+                                <i class="fa-regular fa-heart" aria-label="Add to Wishlist"></i>
+                                <i class="fa-solid fa-cart-plus" aria-label="Add to Cart"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-label="Quick View"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-title">Seared Steak Plate</h3>
+                        <p class="product-price">$26.99 <del>$34.99</del></p>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <div class="product-image-front img4-front"></div>
+                            <div class="product-image-back img4-back">
+                                <i class="fa-regular fa-heart" aria-label="Add to Wishlist"></i>
+                                <i class="fa-solid fa-cart-plus" aria-label="Add to Cart"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-label="Quick View"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-title">Fresh Citrus Mojito</h3>
+                        <p class="product-price">$8.99 <del>$11.99</del></p>
+                    </article>
+                    <button class="slider-arrow" type="button" aria-label="Next Products">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <hr class="line-news">
+        <section class="blog-section">
+            <h2 class="blog-title">Kitchen Stories</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="images/Fresh-Daily-Menu.png" alt="Seasonal Menu Story" class="blog-image">
+                    <p class="blog-category">Seasonal Menu</p>
+                    <h3 class="blog-title">How We Build a Fresh Daily Menu</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam in,
+                        harum unde eveniet neque sequi iure excepturi fugit inventore veniam debitis odio maiores voluptate sit
+                        quae distinctio? Voluptatem, sunt?</p>
+                    <button class="blog-button" type="button">Read More</button>
+                </article>
+                <article class="blog-card">
+                    <img src="images/Plating-Dish.jpg" alt="Chef Advice" class="blog-image">
+                    <p class="blog-category">Chef Tips</p>
+                    <h3 class="blog-title">Plating That Makes Every Dish Shine</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam in,
+                        harum unde eveniet neque sequi iure excepturi fugit inventore veniam debitis odio maiores voluptate sit
+                        quae distinctio? Voluptatem, sunt?</p>
+                    <button class="blog-button" type="button">Read More</button>
+                </article>
+                <article class="blog-card">
+                    <img src="images/Fresh-Ingredients.jpg" alt="Ingredient Story" class="blog-image">
+                    <p class="blog-category">Ingredient Spotlights</p>
+                    <h3 class="blog-title">Why Fresh Ingredients Change Everything</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam in,
+                        harum unde eveniet neque sequi iure excepturi fugit inventore veniam debitis odio maiores voluptate sit
+                        quae distinctio? Voluptatem, sunt?</p>
+                    <button class="blog-button" type="button">Read More</button>
+                </article>
+            </div>
+        </section>
+        <hr class="last-line">
+        <section class="features">
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="icons">
+                        <i class="icon-front fa-solid fa-truck truck"></i>
+                        <i class="icon-back fa-solid fa-truck truck2"></i>
+                    </div>
+                    <h3 class="feature-title">Free Shipping</h3>
+                    <p class="feature-description">Free delivery on all orders over $40.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="icons">
+                        <i class="icon-front fa-solid fa-money-bill money"></i>
+                        <i class="icon-back fa-solid fa-money-bill money2"></i>
+                    </div>
+                    <h3 class="feature-title">Easy Refunds</h3>
+                    <p class="feature-description">100% satisfaction guarantee within 30 days.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="icons">
+                        <i class="icon-front fa-solid fa-headset support"></i>
+                        <i class="icon-back fa-solid fa-headset support2"></i>
+                    </div>
+                    <h3 class="feature-title">7 Days Service</h3>
+                    <p class="feature-description">Friendly dining support available anytime.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="icons">
+                        <i class="icon-front fa-solid fa-lock"></i>
+                        <i class="icon-back fa-solid fa-lock"></i>
+                    </div>
+                    <h3 class="feature-title">Secure Payment</h3>
+                    <p class="feature-description">Safe and encrypted ordering methods.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <section class="upper-footer">
+                <div class="upper-content">
+                    <h2 class="upper-title">Subscribe</h2>
+                    <p class="upper-desc">Subscribe to our newsletter and get 5% off your first order.</p>
+                </div>
+                <div class="upper-form">
+                    <input type="email" placeholder="Enter your email" aria-label="Email Address">
+                    <button type="button">Subscribe</button>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </section>
+            <hr class="divider">
+            <section class="footer-content">
+                <div class="footer-logo">
+                    <img class="logo-img" src="images/restaurant-logo.jpg" alt="Savory Table Logo">
+                    <h1 class="logo-title">Savory Table</h1>
+                </div>
+                <div class="footer-column" aria-label="Breakfast Menu">
+                    <h3 class="footer-title">Breakfast</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Omelets</a></li>
+                        <li><a href="#">Pancakes</a></li>
+                        <li><a href="#">Breakfast Bowls</a></li>
+                        <li><a href="#">Fresh Juice</a></li>
+                        <li><a href="#">Coffee</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column" aria-label="Lunch Menu">
+                    <h3 class="footer-title">Lunch</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Sandwiches</a></li>
+                        <li><a href="#">Pasta</a></li>
+                        <li><a href="#">Salads</a></li>
+                        <li><a href="#">Burgers</a></li>
+                        <li><a href="#">Soups</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column" aria-label="Dinner Menu">
+                    <h3 class="footer-title">Dinner</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Steaks</a></li>
+                        <li><a href="#">Seafood</a></li>
+                        <li><a href="#">Pizza</a></li>
+                        <li><a href="#">Rice Plates</a></li>
+                        <li><a href="#">Dessert</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column" aria-label="Drinks and Extras">
+                    <h3 class="footer-title">Drinks</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Soft Drinks</a></li>
+                        <li><a href="#">Milkshakes</a></li>
+                        <li><a href="#">Mocktails</a></li>
+                        <li><a href="#">Wine</a></li>
+                        <li><a href="#">Dessert Specials</a></li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="divider">
+            <section class="footer-bottom">
+                <p class="copyright">
+                    Copyright &copy; 2026 All rights reserved | This template is made with
+                    <span class="heart-icon">&#10084;</span> by <span class="author-name">Ahmed Atta</span>
+                </p>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
